@@ -160,7 +160,7 @@ export class PresenceAccessory implements HomebridgeAccessory {
 
     this.timeoutIdx = setTimeout(() => {
       this.presencePolling();
-    }, (this.config.interval >= 1 ? this.config.interval : 1) * 60 * 1000);
+    }, (this.config.interval >= 1 ? this.config.interval : 1) * 1000);
   }
 
   /**
