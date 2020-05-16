@@ -1,9 +1,9 @@
 {
   "$schema": "https://gist.githubusercontent.com/estruyf/d5696a00569fa67d14e83a965873e51c/raw/a3cfafa01d6d24bf89316ef372ba28ecd44e75ba/homebridge.schema.json",
-  "pluginAlias": "presence-switch",
+  "pluginAlias": "presence-switch_DASP",
   "pluginType": "accessory",
   "singular": false,
-  "headerDisplay": "Microsoft Graph Presence Switch",
+  "headerDisplay": "Microsoft Graph Presence Switch (DASP)",
   "footerDisplay": "Plugin which allows you retrieve your presence via the Microsoft Graph and call your busy light API.",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema",
